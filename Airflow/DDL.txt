@@ -1,0 +1,35 @@
+https://www.kaggle.com/datasets/akashdeepkuila/big-mart-sales
+
+
+CREATE TABLE table_m3(
+	"ProductID" VARCHAR(15),
+	"Weight" FLOAT,
+	"FatContent" VARCHAR(15),
+	"ProductVisibility" FLOAT,
+	"ProductType" VARCHAR(30),
+	"MRP" FLOAT,
+	"OutletID" VARCHAR(15),
+	"EstablishmentYear" INT,
+	"OutletSize" VARCHAR(15),
+	"LocationType" VARCHAR(15),
+	"OutletType" VARCHAR(30),
+	"OutletSales" FLOAT
+);
+
+COPY table_m3(
+	"ProductID",
+	"Weight",
+	"FatContent",
+	"ProductVisibility",
+	"ProductType",
+	"MRP",
+	"OutletID",
+	"EstablishmentYear",
+	"OutletSize",
+	"LocationType",
+	"OutletType",
+	"OutletSales"
+	)
+FROM 'D:\Hacktiv8\Fase2\P2M3_Richard_Edgina_data_raw.csv'
+DELIMITER ','
+CSV HEADER;
