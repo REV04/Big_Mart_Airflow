@@ -1,4 +1,4 @@
-# Big_Mart_Airflow
+# Big Mart Airflow
 This project, "Big_Mart_Airflow," is part of my Hacktiv8 project on airflow. It serves as both a requirement for my Hacktiv8 studies and a component of my personal portfolio in Data Engineer. You can find my other personal projects on [Richard Edgina Virgo](https://github.com/REV04).
 
 #### -- Project Status: Finished
